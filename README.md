@@ -1,6 +1,6 @@
 # SUBTLE MATTER
 
-### [DEPLOYED APP]()
+### [DEPLOYED APP](https://subtl-matter.herokuapp.com/subtlematter)
 -----
 
 ### BUILT WITH:
