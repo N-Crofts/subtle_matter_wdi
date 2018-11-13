@@ -17,6 +17,7 @@ export default class App extends Component {
           <Route exact path='/subtlematter' component={SubtlePages} />
           <Route exact path='/books' component={BookSearch} />
           <Route exact path='/guestbook' component={GuestBook} />
+          <Route path='/' component={SubtlePages}/>
         </Switch>
         </div>
       </Router>

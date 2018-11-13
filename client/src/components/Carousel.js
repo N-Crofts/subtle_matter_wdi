@@ -172,7 +172,7 @@ export default class SubtlePages extends React.Component {
               </Carousel.Item>
 
          
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <div style={{ height: 700 }}>
                   <div style={insideStyles}>   
                   <div class="text-focus-in">
@@ -187,7 +187,7 @@ export default class SubtlePages extends React.Component {
                     </div>
                   </div>
                 </div>
-              </Carousel.Item>
+              </Carousel.Item> */}
  
 
               <Carousel.Item>   

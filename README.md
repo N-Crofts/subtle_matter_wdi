@@ -1,8 +1,6 @@
 # SUBTLE MATTER
 
 ### [DEPLOYED APP]()
-
-### [TREELO]()
 -----
 
 ### BUILT WITH:
