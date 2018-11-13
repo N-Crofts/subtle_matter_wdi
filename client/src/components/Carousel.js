@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import horse from '../soundclips/horse_passing_by.wav'
 import unlock from '../soundclips/unlock_door.wav'
 import laugh from '../soundclips/laugh.wav'
-// import storm from '../soundclips/_long.flac'
+import storm from '../soundclips/storm.wav'
 import thunder from '../soundclips/thunderclap.wav'
 import door from '../soundclips/door_knock.wav'
 import $ from 'jquery'
@@ -174,14 +174,16 @@ export default class SubtlePages extends React.Component {
          
               <Carousel.Item>
                 <div style={{ height: 700 }}>
-                  <div style={insideStyles}>    
+                  <div style={insideStyles}>   
+                  <div class="text-focus-in">
+ 
                     <div>Explore the site through the header above.</div>
                     <div>Use the search engine to find similar stories.</div>
                     <div>Or leave a message in the guestbook.</div>
                     <div>Use the left and right arrows to navigate throughout the story.</div>
                     <div>When prompted, press the blue button to trigger audio from the scene.
                     <img id="button" className="blink" src="http://icons-for-free.com/icon/download-tik_icon-381203.png" alt="blue button"></img>
-
+</div>
                     </div>
                   </div>
                 </div>
@@ -247,6 +249,7 @@ export default class SubtlePages extends React.Component {
            <div style={{ height: 570 }}>
         <div class="text-shadow-drop-bl" style={leftStyles}>
               <div class="paraLeft">
+              
             <p>Minutes passed, or hours. I can't be certain. Another encounter came in the form of a rattle, a clicking, and a turning; a distinction I'd later recognize as the unlocking of the door that that room. Soon there were footsteps, two pairs, not as unnerving as the horse's stride from earlier, yet still punding the hardwood with intent. I waited. The floor creaked. The door fell shut.</p>
         </div>
         </div>
@@ -537,9 +540,9 @@ export default class SubtlePages extends React.Component {
         <div id="shadow-drop-2-center" style={picInsideRight}>
             <img class="storyImageLight" id="imageTen" src="https://i2.wp.com/blogs.ams.org/blogonmathblogs/files/2018/01/9b7452_72207676f6684f0ca5655340f5f868b7.jpg?resize=493%2C507" alt="golden ration"></img>
         </div>
-        {/* <video id="video">
+        <video id="video">
   <source src={storm} />
-</video> */}
+</video>
 <div id="scrollFive">
             </div>
       </div>
@@ -664,7 +667,10 @@ export default class SubtlePages extends React.Component {
         <div class="text-shadow-drop-bl" style={insideStyles}>
             <p>I nodded. The gears under my newly formed jaw whirred. My mouth cranked open. “As always, Mr. Hoyt,” I whispered. His body went limp in my arm. “It most certainly was.”</p>
             <br></br>
+            <div class="text-focus-in">
+
             <h4 class="end">e n d</h4>
+            </div>
         </div>
       </div>
   </Carousel.Item>
@@ -673,9 +679,12 @@ export default class SubtlePages extends React.Component {
   <Carousel.Item>
   <div style={{ height: 700 }}>
         <div class="text-shadow-drop-bl" style={insideStyles}>
+        <div class="text-focus-in">
+
             <p>Nicholas Crofts is a junior full-stack developer from Atlanta, GA. If you'd like to know more (and check out some of his other projects), head on over to his profile at <a href="https://nicholascrofts.com">nicholascrofts.com</a> </p>
             
         </div>
+      </div>
       </div>
   </Carousel.Item>
 
