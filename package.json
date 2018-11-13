@@ -1,0 +1,34 @@
+{
+  "name": "subtle_matter",
+  "engines": {
+    "node": "9.9.0"
+  },
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ..",
+    "deploy": "cp -a client/build/. public/",
+    "postinstall": "npm run build && npm run deploy && echo 'Client built!'"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "axios": "^0.18.0",
+    "firebase": "^5.5.8",
+    "jquery": "^3.3.1",
+    "react": "^16.6.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-animated-css": "^1.0.4",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.0",
+    "react-hover": "^1.3.4",
+    "react-intersection-observer": "^6.2.3",
+    "react-inview-monitor": "^2.2.0",
+    "react-parallax": "^2.0.1",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scroll-trigger": "^0.5.1",
+    "react-sound": "^1.2.0",
+    "react-waypoint": "^8.0.3",
+    "redux": "^4.0.1",
+    "scrollmonitor-react": "^2.4.1",
+    "styled-components": "^4.0.3"
+  }
+}
