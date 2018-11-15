@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
-import improv from '../soundclips/piano_improv.flac'
 import SubtleNav from './Navbar.js'
+import improv from '../soundclips/piano_improv.flac'
 import horse from '../soundclips/horse_passing_by.wav'
 import unlock from '../soundclips/unlock_door.wav'
 import laugh from '../soundclips/laugh.wav'
@@ -9,110 +9,81 @@ import storm from '../soundclips/storm.wav'
 import thunder from '../soundclips/thunderclap.wav'
 import door from '../soundclips/door_knock.wav'
 import $ from 'jquery'
-//////////////////////////////////////////////////////////////
+
 const styles = {
     fontFamily: "Work Sans",
     textAlign: "left",
     color: "rgba(255, 255, 255, 0.8)",
     fontSize: 17,
     letterSpacing: 1
-  }
-  const insideStyles = {
+}
+const insideStyles = {
     padding: 20,
     position: "absolute",
     top: "50%",
     left: "50%",
     transform: "translate(-50%,-50%)"
-  }
-  const rightStyles = {
+}
+const rightStyles = {
     padding: 20,
     marginRight: 40,
     position: "absolute",
     top: "50%",
     left: "50%",
     transform: "translate(-10%,-50%)"
-  }
-  const leftStyles = {
+}
+const leftStyles = {
     padding: 20,
     position: "absolute",
     maxWidth: 700,
     top: "50%",
     left: "30%",
     transform: "translate(-60%,-50%)"
-  }
-  const picInsideLeft = {
+}
+const picInsideLeft = {
       padding: 18,
       paddingLeft: 40
-  }
-  const picInsideRight = {
+}
+const picInsideRight = {
       padding: 18,
       paddingLeft: 730
 }
-  const image1 =
-    "https://i.pinimg.com/originals/57/f5/fa/57f5fa649b7683b5ee4999242e873e63.jpg";
-  const image2 =
-    "https://i.pinimg.com/originals/57/f5/fa/57f5fa649b7683b5ee4999242e873e63.jpg";
-  const image3 =
-    "https://cdn.hipwallpaper.com/i/79/86/RPnbd2.jpg";
-  const image4 =
-    "https://i.pinimg.com/originals/57/f5/fa/57f5fa649b7683b5ee4999242e873e63.jpg";
 
-//////////////////////////////////////////////////////////////
-
-    $("a").on('click', function(event) {
-
-      if (this.hash !== "") {
-        event.preventDefault();
-  
-        var hash = this.hash;
-  
+$("a").on('click', function(event) {
+    if (this.hash !== "") {
+        event.preventDefault()  
+        let hash = this.hash 
         $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 10000, function(){
-     
-          window.location.hash = hash;
-        });
+            scrollTop: $(hash).offset().top
+        }, 10000, function() { 
+            window.location.hash = hash
+        })
       } 
-    });
+})
 
- //////////////////////////////////////////////////////////////
-
-    const videos = document.getElementsByTagName('video')
-    
-    const checkScroll = () => { 
-        for(let i = 0; i < videos.length; i++) {   
-            const video = videos[i]   
-            const x = video.offsetLeft 
-            const y = video.offsetTop
-            const w = video.offsetWidth 
-            const h = video.offsetHeight 
-            const r = x + w 
-            const b = y + h 
-
-            let visibleX 
-            let visibleY 
-            let visible    
-                
-                visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - y, r - window.pageXOffset));
-                visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - x, b - window.pageYOffset));
-                visible = visibleX * visibleY / (w * h); 
-                   
-                  if ((visible) && (video.played.length === 0)) {
-                    video.play();
-                  } 
-                  //   else {
-                  //   video.pause();
-                  // }
-                  
-    
-        }
-    
-    }
-    
-    window.addEventListener('scroll', checkScroll, false)
-    window.addEventListener('resize', checkScroll, false)
-
- //////////////////////////////////////////////////////////////
+const videos = document.getElementsByTagName('video')    
+const checkScroll = () => { 
+    for(let i = 0; i < videos.length; i++) {   
+        const video = videos[i]   
+        const x = video.offsetLeft 
+        const y = video.offsetTop
+        const w = video.offsetWidth 
+        const h = video.offsetHeight 
+        const r = x + w 
+        const b = y + h 
+        let visibleX 
+        let visibleY 
+        let visible                    
+            visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - y, r - window.pageXOffset))
+            visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - x, b - window.pageYOffset))
+            visible = visibleX * visibleY / (w * h)                  
+              if ((visible) && (video.played.length === 0)) {
+                video.play()
+              }                       
+    }    
+}    
+window.addEventListener('scroll', checkScroll, false)
+window.addEventListener('resize', checkScroll, false)
 
 export default class SubtlePages extends React.Component {
     constructor(props, context) {
