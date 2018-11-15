@@ -188,7 +188,7 @@ export default class SubtlePages extends React.Component {
                 <div style={{ height: 570 }}>
                   <div class="text-shadow-drop-bl" style={leftStyles}>
                     <div class="paraLeft">              
-                      <p>Minutes passed, or hours. I can't be certain. Another encounter came in the form of a rattle, a clicking, and a turning; a distinction I'd later recognize as the unlocking of the door that that room. Soon there were footsteps, two pairs, not as unnerving as the horse's stride from earlier, yet still punding the hardwood with intent. I waited. The floor creaked. The door fell shut.</p>
+                      <p>Minutes passed, or hours. I can't be certain. Another encounter came in the form of a rattle, a clicking, and a turning; a distinction I'd later recognize as the unlocking of the door to that room. Soon there were footsteps, two pairs, not as unnerving as the horse's stride from earlier, yet still punding the hardwood with intent. I waited. The floor creaked. The door fell shut.</p>
                     </div>
                   </div>
                   <div style={picInsideRight}>
