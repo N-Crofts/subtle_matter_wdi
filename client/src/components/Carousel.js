@@ -41,12 +41,12 @@ const leftStyles = {
     transform: "translate(-60%,-50%)"
 }
 const picInsideLeft = {
-      padding: 18,
-      paddingLeft: 40
+    padding: 18,
+    paddingLeft: 40
 }
 const picInsideRight = {
-      padding: 18,
-      paddingLeft: 730
+    padding: 18,
+    paddingLeft: 730
 }
 
 $("a").on('click', function(event) {
