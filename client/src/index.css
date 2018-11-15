@@ -478,7 +478,8 @@ img {
 
 .text-focus-in {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 500ms both;
-	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 500ms both;
+          animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 500ms both;
+  
 }
 @-webkit-keyframes text-focus-in {
   0% {
@@ -503,6 +504,14 @@ img {
             filter: blur(0px);
     opacity: 1;
   }
+}
+#aShortStory {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5000ms both;
+          animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5000ms both;  
+}
+#byNicholasCrofts {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 6000ms both;
+          animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 6000ms both;  
 }
 
 
