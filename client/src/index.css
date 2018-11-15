@@ -509,15 +509,10 @@ img {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5000ms both;
           animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 5000ms both;  
 }
-#byNicholasCrofts {
+#byNicholasCrofts, #end {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 6000ms both;
           animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 6000ms both;  
 }
-
-
-
-
-
 @keyframes move {
   25% {
     opacity: 1;
