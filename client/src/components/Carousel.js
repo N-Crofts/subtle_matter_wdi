@@ -144,7 +144,7 @@ export default class SubtlePages extends React.Component {
                   <div class="text-shadow-drop-bl" id="textPageTwo" style={rightStyles}>
                     <div class="text-focus-in">
                       <div class="paraRight">
-                        <p>Theres's a memory. I'd say it's a memory of my birth, but the idea of 'birth' seems too ordinary, too simplified. What I speak of is far more questioning of the ideas you may have of the nature of life, of existence, of purpose. And if you're prepared to respect such a claim, allow me to put so:</p>
+                        <p>Theres's a memory. I'd say it's a memory of my birth, but the idea of 'birth' seems too ordinary, too simplified. What I speak of is far more questioning of the ideas you may have of the nature of life, of existence, of purpose. And if you're prepared to respect such a claim, allow me to put it so:</p>
                         <p><i>I can recall, with perfect detail, the precise moment I emerged from nothing.</i></p>
                         <p>Curious? Then let me tell you of that memory and what stirred me into being, and, if time permits, the days of wonder and dread that would follow.</p>
                       </div>
@@ -624,7 +624,7 @@ export default class SubtlePages extends React.Component {
                 <div style={{ height: 700 }}>
                   <div class="text-shadow-drop-bl" style={insideStyles}>
                     <div class="text-focus-in">
-                      <p>Nicholas Crofts is a junior full-stack developer from Atlanta, GA. If you'd like to know more (and check out some of his other projects), feel free to visit his profile at <a href="https://nicholascrofts.com">nicholascrofts.com</a></p>           
+                      <p>Nicholas Crofts is a junior full-stack developer from Atlanta, GA. If you'd like to know more (and check out some of his other projects), feel free to visit his portfolio at <a href="https://nicholascrofts.com">nicholascrofts.com</a></p>           
                     </div>
                   </div>
                 </div>
