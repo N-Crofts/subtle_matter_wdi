@@ -169,7 +169,7 @@ export default class SubtlePages extends React.Component {
                           <img 
                             id="button" 
                             className="blink" 
-                            src="http://icons-for-free.com/icon/download-tik_icon-381203.png" 
+                            src="https://cdn.pixabay.com/photo/2016/07/05/15/27/icon-1498823_960_720.png" 
                             alt="golden ratio">
                           </img>
                         </a>
@@ -295,7 +295,7 @@ export default class SubtlePages extends React.Component {
                         <img 
                           id="button" 
                           className="blink" 
-                          src="http://icons-for-free.com/icon/download-tik_icon-381203.png" 
+                          src="https://cdn.pixabay.com/photo/2016/07/05/15/27/icon-1498823_960_720.png" 
                           alt="blue button">
                         </img>
                       </a>
@@ -419,7 +419,7 @@ export default class SubtlePages extends React.Component {
                         <img 
                           id="button" 
                           className="blink" 
-                          src="http://icons-for-free.com/icon/download-tik_icon-381203.png" 
+                          src="https://cdn.pixabay.com/photo/2016/07/05/15/27/icon-1498823_960_720.png" 
                           alt="blue button">
                         </img>
                       </a>
@@ -463,7 +463,7 @@ export default class SubtlePages extends React.Component {
                           <img 
                             id="button" 
                             className="blink" 
-                            src="http://icons-for-free.com/icon/download-tik_icon-381203.png" 
+                            src="https://cdn.pixabay.com/photo/2016/07/05/15/27/icon-1498823_960_720.png" 
                             alt="blue button">
                           </img>
                         </a>             
@@ -522,7 +522,7 @@ export default class SubtlePages extends React.Component {
                         <img 
                           id="button" 
                           className="blink" 
-                          src="http://icons-for-free.com/icon/download-tik_icon-381203.png" 
+                          src="https://cdn.pixabay.com/photo/2016/07/05/15/27/icon-1498823_960_720.png" 
                           alt="blue button">
                         </img>
                       </a>
@@ -574,7 +574,7 @@ export default class SubtlePages extends React.Component {
                         <img 
                           id="button" 
                           className="blink" 
-                          src="http://icons-for-free.com/icon/download-tik_icon-381203.png" 
+                          src="https://cdn.pixabay.com/photo/2016/07/05/15/27/icon-1498823_960_720.png" 
                           alt="blue button">
                         </img>
                       </a> 
