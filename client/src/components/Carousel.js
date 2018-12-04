@@ -169,7 +169,7 @@ export default class SubtlePages extends React.Component {
                           <img 
                             id="button" 
                             className="blink" 
-                            src="https://kathleenhalme.com/images/transparent-spheres-background.png" 
+                            src="https://i.imgur.com/DFJHITE.png" 
                             alt="golden ratio">
                           </img>
                         </a>
@@ -195,7 +195,7 @@ export default class SubtlePages extends React.Component {
                     <img 
                       class="storyImageLight" 
                       id="imageThree" 
-                      src="https://ksr-ugc.imgix.net/assets/005/319/411/af8a1e4706417fb4ff116f523217efbc_original.jpg?ixlib=rb-1.1.0&w=680&fit=max&v=1454844185&auto=format&gif-q=50&q=92&s=16fbdeda383a43c1f46c92897bff04bb" 
+                      src="https://i.imgur.com/tG4K6Vo.jpg" 
                       alt="golden ration">
                     </img> 
                   </div>       
@@ -349,8 +349,8 @@ export default class SubtlePages extends React.Component {
                     <img 
                       class="storyImageDark" 
                       id="imageSeven" 
-                      src="https://pbs.twimg.com/media/CfWV0-XWAAAAe0n.jpg" 
-                      alt="golden ration">
+                      src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Espiral_de_semillas_de_Girasol.jpg" 
+                      alt="chamomile flower">
                     </img>
                   </div>
                 </div>
