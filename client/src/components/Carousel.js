@@ -349,7 +349,7 @@ export default class SubtlePages extends React.Component {
                     <img 
                       class="storyImageDark" 
                       id="imageSeven" 
-                      src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Espiral_de_semillas_de_Girasol.jpg" 
+                      src="https://truththeory.com/wp-content/uploads/2018/08/54503789_m.jpg" 
                       alt="chamomile flower">
                     </img>
                   </div>

@@ -74,6 +74,7 @@ a {
 
 body {
   background: url("https://i.pinimg.com/originals/57/f5/fa/57f5fa649b7683b5ee4999242e873e63.jpg");
+  height: 100vh;
   font-family: 'Work Sans', sans-serif;
   /* text-shadow: 2px 2px black; */
 
